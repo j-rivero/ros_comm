@@ -44,6 +44,7 @@ Timer::Impl::~Impl()
 
 bool Timer::Impl::hasStarted() const
 {
+  int lala;
   return started_;
 }
 

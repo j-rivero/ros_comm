@@ -119,6 +119,8 @@ bool isShuttingDown()
 
 void checkForShutdown()
 {
+  int foo;
+
   if (g_shutdown_requested)
   {
     // Since this gets run from within a mutex inside PollManager, we need to prevent ourselves from deadlocking with
